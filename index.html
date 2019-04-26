@@ -1,1 +1,190 @@
-Hello Word
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rancho" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>AlaCruz</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+      <img src="./images/logo.png" class="img-fluid" alt="Responsive image" style="width:70px; height:70px;">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"><a class="nav-link" href="./index.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="./precios.html">Precios</a></li>
+          <li class="nav-item"><a class="nav-link" href="./terminos.html">Términos y Condiciones</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page"><span class="oi oi-home"></span></li>
+        </ol>
+      </nav>
+      <img src="https://www.eatatbento.com/wp-content/uploads/2016/06/catering-01.jpg" class="img-fluid" alt="Responsive image">
+      <div class="d-flex flex-wrap justify-content-around">
+        <div class="flex-column">
+          <button class="btn btn-primary btn-collapse" type="button" data-toggle="collapse" data-target="#ofrecemos" aria-controls="multi-collapse1">¿Qué Ofrecemos?</button>
+        </div>
+        <div class="flex-column">
+          <button class="btn btn-primary btn-collapse" type="button" data-toggle="collapse" data-target="#funciona" aria-controls="multi-collapse2">¿Cómo Funciona?</button>
+        </div>
+        <div class="flex-column">
+          <button class="btn btn-primary btn-collapse" type="button" data-toggle="collapse" data-target="#despues" aria-controls="multi-collapse3">¿Y Despues?</button>
+        </div>
+      </div>
+      <div class="d-flex flex-wrap opciones-card">
+        <div class="col-sm-4 collapse multi-collapse" id="ofrecemos">
+          <p>
+            <h3>¿Qué te ofrecemos?</h3>
+            <p class="text-muted">Un conjunto de menúes de los cuales podes podes seleccionar lo que mas te gusten!</p>
+          </p>
+        </div>
+        <div class="col-sm-4 collapse multi-collapse" id="funciona">
+          <p>
+            <h3>¿Cómo funciona?</h3>
+            <p class="text-muted">Seleccioná los que mas te gusten, decinos para cuantas personas, y armá tu evento!</p>
+          </p>
+        </div>
+        <div class="col-sm-4 collapse multi-collapse" id="despues">
+          <p>
+            <h3>¿Y despues?</h3>
+            <p class="text-muted">Dejanos tus datos, nosotros armamos tu preupuesto y te lo pasamos!</p>
+          </p>
+        </div>
+      </div>
+      <div class="d-flex flex-wrap flex-row justify-content-around opciones-card">
+        <div class="card card-cocina d-flex flex-column justify-content-between mt-2 mr-2">
+          <img src="https://www.seekpng.com/png/detail/524-5248604_comida-icono-png-iconos-de-comida-png.png" class="img-fluid card-image" alt="Responsive image">
+          <div class="card-body">
+            <h4 class="card-title">Entradas</h4>
+
+            <p class="card-text">Disfrutá de las mejores entradas que te ofrecemos!</p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-consulta">Consultar</button>
+          </div>
+        </div>
+        <div class="card card-cocina d-flex flex-column justify-content-between mt-2 mr-2">
+          <img src="https://www.seekpng.com/png/detail/524-5248604_comida-icono-png-iconos-de-comida-png.png" class="img-fluid card-image" alt="Responsive image">
+          <div class="card-body">
+            <h4 class="card-title">Cazuelas</h4>
+            <p class="card-text">Disfrutá de una de nuestras especialidades: variedad de cazuelas!</p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-consulta">Consultar</button>
+          </div>
+        </div>
+        <div class="card card-cocina d-flex flex-column justify-content-between mt-2 mr-2">
+          <img src="https://www.seekpng.com/png/detail/524-5248604_comida-icono-png-iconos-de-comida-png.png" class="img-fluid card-image" alt="Responsive image">
+          <div class="card-body">
+            <h4 class="card-title">A las llamas</h4>
+            <p class="card-text">Lo que mas nos gusta hacer! Asado a las llamas, mirá lo que te ofrecemos!</p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-consulta">Consultar</button>
+          </div>
+        </div>
+        <div class=" card card-cocina d-flex flex-column justify-content-between mt-2 mr-2">
+          <img src="https://www.seekpng.com/png/detail/524-5248604_comida-icono-png-iconos-de-comida-png.png" class="img-fluid card-image" alt="Responsive image">
+          <div class="card-body">
+            <h4 class="card-title">A la parrilla</h4>
+            <p class="card-text">El típico asado Argentino a la parilla!</p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-consulta">Consultar</button>
+          </div>
+        </div>
+        <div class=" card card-cocina d-flex flex-column justify-content-between mt-2 mr-2">
+          <img src="https://www.seekpng.com/png/detail/524-5248604_comida-icono-png-iconos-de-comida-png.png" class="img-fluid card-image" alt="Responsive image">
+          <div class="card-body">
+            <h4 class="card-title">Repostería</h4>
+            <p class="card-text">Selección de los mejores postres para que disfrutes de las cosas dulces!</p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-consulta">Consultar</button>
+          </div>
+        </div>
+        <div class="card card-cocina d-flex flex-column justify-content-between mt-2 mr-2">
+          <img src="https://www.seekpng.com/png/detail/524-5248604_comida-icono-png-iconos-de-comida-png.png" class="img-fluid card-image" alt="Responsive image">
+
+          <div class="card-body">
+            <h4 class="card-title">Finger Food</h4>
+            <p class="card-text">Ideal para reuniones un poco más informales y modernas!..Finger Food.. no te lo pierdas</p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-consulta">Consultar</button>
+          </div>
+        </div>
+        <div class="card card-cocina d-flex flex-column justify-content-between mt-2 mr-2">
+          <img src="https://www.seekpng.com/png/detail/524-5248604_comida-icono-png-iconos-de-comida-png.png" class="img-fluid card-image" alt="Responsive image">
+          <div class="card-body">
+            <h4 class="card-title">Finger Food</h4>
+            <p class="card-text">Ideal para reuniones un poco más informales y modernas!..Finger Food.. no te lo pierdas</p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-consulta" data-toggle="modal" data-target="#consultar">Consultar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="consultar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Consulta</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="./images/asadoFondoQuincho.jpg" class="img-fluid card-image" alt="Responsive image">
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 mt-md-1 mt-3 pr-5 mb-3 d-flex flex-column align-items-md-start">
+            <a href="http://facebook.com" class="footer-social-icon"><i class="fa fa-facebook-square" style="font-size:30px"></i></a>
+            <a href="http://instagram.com" class="footer-social-icon"><i class="fa fa-twitter" style="font-size:30px"></i></a>
+            <a href="http://twitter.com" class="footer-social-icon"><i class="fa fa-instagram" style="font-size:30px"></i></a>
+            <a href="http://google.com" class="footer-social-icon"><i class="fa fa-google-plus" style="font-size:30px"></i></a>
+          </div>
+          <div class="col-md-6 mb-md-0 mb-3 d-flex flex-column align-items-md-center">
+            <address>
+            <h4>Oficina Central</h4>
+            <p><span class="oi oi-home footer-adress-icon"></span>Arzobispo Castellanos 46, Alta Gracia, CBA</p>
+          <p><span class="oi oi-phone footer-adress-icon"></span>+5493547631122</p>
+          <p><span class="oi oi-envelope-closed footer-adress-icon"></span>alacruz.cocinacriolla@gmail.com</p>
+          </address>
+          </div>
+          <div class="col-md-3 mb-md-0 d-flex flex-column align-items-md-end">
+            <a href="#">Nosotros</a>
+            <a href="#">Precios</a>
+            <a href="#">Terminos y condiciones</a>
+            <a href="#">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+
+</html>
