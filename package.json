@@ -1,0 +1,15 @@
+{
+  "name": "micv",
+  "version": "1.0.0",
+  "description": "cv",
+  "main": "micvindex.html",
+  "scripts": {
+    "dev" : "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "juan soaje",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
