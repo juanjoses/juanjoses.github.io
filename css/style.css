@@ -24,6 +24,8 @@
  	margin-bottom: 60px;
   max-width: 200px;
   max-height: 200px;
+  border-style: solid;
+  border-color: #40424a;
  }
 
  .mi-cv-style .hero-text h2 {
@@ -40,7 +42,9 @@
  .mi-cv-style .social-links a {
  	font-size: 40px;
  	margin-right: 40px;
- 	color: black;
+ 	color: #40424a;
+  display: block;
+  margin: auto;
  }
 .mi-cv-style .info-section h2{
   color: white;
